@@ -3,7 +3,7 @@ name: Build and Deploy Contoso App
 env:
   AZURE_WEBAPP_NAME: msreactor-appservice-github    
   AZURE_WEBAPP_PACKAGE_PATH: '.'      
-  DOTNET_VERSION: '6'                 
+  DOTNET_VERSION: '6.0'                 
 
 on:
   push:
